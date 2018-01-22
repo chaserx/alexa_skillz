@@ -24,6 +24,8 @@ Using the Serverless framework
 
 Using the `serverless-python-requirements` plugin to handle the installation and Linux compilation of required Python modules (see requirements.txt) namely the Requests library. You'll need to have Docker for Mac installed and running. 
 
+`serverless plugin install --name serverless-python-requirements`
+
 ## References
 
 [Managing secrets, API keys and more with Serverless](https://serverless.com/blog/serverless-secrets-api-keys/)

@@ -2,7 +2,6 @@ import json
 import os
 import requests
 
-
 def current_conditions(event, context):
     '''
     NOTE(chaserx): Dark Sky API key stored in AWS System Manger parameter
@@ -40,4 +39,3 @@ def format_response(response_dict):
         return 'The current temperature in Lexington is ' + temperature + ' degrees fahrenheit, but it apparently feels like ' + apparentTemperature + ' degrees fahrenheit.'
     else:
         return 'Oh! Something went wrong. I was not able to get data from the Dark Sky weather service.'
-
